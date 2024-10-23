@@ -8,8 +8,8 @@ jobs:
 
      steps:
       -  name: Checkout code 
-         uses: actions/checkout@v2
+         uses: RemcoHalman/python-helloworld-action@b01903e6d4fd4d6f55d9652ad9fa7cc8f4bdf12b
 
       -  name: Hello World from Python
-         uses: RemcoHalman/python-helloworld-action@v.0.0.1
+         uses: RemcoHalman/python-helloworld-action@v0.0.1
           
