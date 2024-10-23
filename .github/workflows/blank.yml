@@ -7,8 +7,9 @@ jobs:
      runs-on: ubuntu-latest
 
      steps:
-        - uses: actions/checkout@v2
-        -name: Hello World from Python
-           uses:
-RemcoHalman/python-helloworld-action@v.0.0.1
+      -  name: Checkout code 
+         uses: actions/checkout@v2
+
+      -  name: Hello World from Python
+         uses: RemcoHalman/python-helloworld-action@v.0.0.1
           
