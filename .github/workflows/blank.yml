@@ -1,5 +1,14 @@
-            - name: Hello World from python
-  # You may pin to the exact commit or the version.
-  # uses: RemcoHalman/python-helloworld-action@b01903e6d4fd4d6f55d9652ad9fa7cc8f4bdf12b
-  uses: RemcoHalman/python-helloworld-action@v0.0.1
+name: Hello World from python
+
+on: [push]
+
+jobs:
+  build:
+     runs-on: ubuntu-latest
+
+     steps:
+        - uses: actions/checkout@v2
+        -name: Hello World from Python
+           uses:
+RemcoHalman/python-helloworld-action@v.0.0.1
           
